@@ -142,6 +142,7 @@ Ext.ux.Printer.BaseRenderer = Ext.extend(Object, {
           '<title>' + this.getTitle(component) + '</title>',
         '</head>',
         '<body>',
+          '<div id="csscheck"></div>',
           this.generateBody(component),
         '</body>',
       '</html>'
